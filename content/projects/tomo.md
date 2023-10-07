@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Desc Text."
-canonicalURL: "bushuye.com/tomo"
+canonicalURL: "bushuyeu.com/projects/tomo"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

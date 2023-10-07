@@ -73,7 +73,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Hi there, I’m Pavel"
     Content: "I’m a product manager passionate about crafting digital products through discovery, prototyping and testing."
   socialIcons:
     - name: email
