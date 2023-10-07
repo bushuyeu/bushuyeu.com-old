@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: "Hi there, I’m Pavel"
     subtitle: "I’m a product manager passionate about crafting digital products through discovery, prototyping and testing."
-    imageUrl: "static/images/pb.png"
+    imageUrl: "/images/pb.png"
     imageWidth: 240
     imageHeight: 240
     imageTitle: "Pavel Bushuyeu"
