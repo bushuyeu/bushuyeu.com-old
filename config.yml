@@ -4,7 +4,7 @@ paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
 
@@ -65,11 +65,11 @@ params:
     imageWidth: 240
     imageHeight: 240
     imageTitle: "Pavel Bushuyeu"
-    # buttons:
+    buttons:
       # - name: Blog
       #   url: blog
-      # - name: Projects
-      #   url: projects
+      - name: Projects
+        url: projects
 
   # home-info mode
   homeInfoParams:
