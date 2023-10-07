@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Pavel Bushuyeu
-  description: "This is the website of Pavel Bushuyeu. I write about products I like and pet projects that I build."
+  description: "I write about products I like and projects I build."
   keywords: [Blog, Portfolio, Tech, Data Science]
   author: Pavel Bushuyeu
   # author: ["Me", "You"] # multiple authors
