@@ -115,24 +115,24 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-# menu:
-#   main:
-#     # - identifier: about
-#     #   name: About
-#     #   url: /about/
-#     #   weight: 10
-#     - identifier: blog
-#       name: Blog
-#       url: /blog/
-#       weight: 20
-#     - identifier: projects
-#       name: Projects
-#       url: /projects/
-#       weight: 30
-#     - identifier: resume
-#       name: Resume
-#       url: /resume/
-#       weight: 40
+menu:
+  main:
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 10
+    # - identifier: blog
+    #   name: Blog
+    #   url: /blog/
+    #   weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+    # - identifier: resume
+    #   name: Resume
+    #   url: /resume/
+    #   weight: 40
 
 # pygmentsUseClasses: true 
 # markup:
