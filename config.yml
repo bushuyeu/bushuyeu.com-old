@@ -1,4 +1,4 @@
-baseURL: "https://bushuyeu.github.io/bushuyeu.com"
+baseURL: "//bushuyeu.com/"
 title: Pavel Bushuyeu
 paginate: 5
 theme: PaperMod
@@ -26,34 +26,34 @@ params:
   defaultTheme: dark # auto, dark, light
   disableThemeToggle: true
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
+  disableSpecial1stPost: true
+  disableScrollToTop: true
   comments: false
   hidemeta: false
   hideSummary: false
   showtoc: false
   tocopen: false
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+  # assets:
+  #   # disableHLJS: true # to disable highlight.js
+  #   # disableFingerprinting: true
+  #   favicon: "<link / abs url>"
+  #   favicon16x16: "<link / abs url>"
+  #   favicon32x32: "<link / abs url>"
+  #   apple_touch_icon: "<link / abs url>"
+  #   safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Pavel Bushuyeu"
-    icon: /apple-touch-icon.png
+    # icon: "images/apple-touch-icon.png"
     iconHeight: 35
 
   # profile-mode
@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: "Hi there, I’m Pavel"
     subtitle: "I’m a product manager passionate about crafting digital products through discovery, prototyping and testing."
-    imageUrl: "/images/pb.png"
+    imageUrl: "images/pb.png"
     imageWidth: 240
     imageHeight: 240
     imageTitle: "Pavel Bushuyeu"
@@ -96,7 +96,7 @@ params:
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInSingle: false # hide on single page
 
   editPost:
   #  URL: "https://github.com/<path_to_repo>/content"
