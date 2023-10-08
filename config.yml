@@ -22,7 +22,7 @@ params:
   keywords: [Blog, Portfolio, Tech]
   author: Pavel Bushuyeu
   # author: ["Me", "You"] # multiple authors
-  images: ["og.png"]
+  images: ["og.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # auto, dark, light
   disableThemeToggle: true
