@@ -3,8 +3,9 @@ title: Pavel Bushuyeu
 paginate: 5
 theme: PaperMod
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: true
+buildDrafts: false
 buildFuture: false
 buildExpired: false
 
@@ -18,19 +19,19 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Pavel Bushuyeu
   description: "I write about products I like and projects I build."
-  keywords: [Blog, Portfolio, Tech, Data Science]
+  keywords: [Blog, Portfolio, Tech]
   author: Pavel Bushuyeu
   # author: ["Me", "You"] # multiple authors
   images: ["og.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # auto, dark, light
-  disableThemeToggle: true
+  disableThemeToggle: false
 
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: false
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: false
   ShowRssButtonInSectionTermList: false
   UseHugoToc: true
@@ -88,10 +89,10 @@ params:
   analytics:
     google:
       SiteVerificationTag: "GTM-K3BFMT3X"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+    # bing:
+    #   SiteVerificationTag: "XYZabc"
+    # yandex:
+    #   SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -125,10 +126,9 @@ menu:
     #   name: Blog
     #   url: /blog/
     #   weight: 20
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 30
+    - name: Projects
+      url: projects
+      weight: 10
     # - identifier: resume
     #   name: Resume
     #   url: /resume/
