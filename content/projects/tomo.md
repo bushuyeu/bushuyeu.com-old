@@ -11,8 +11,10 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Desc Text."
-canonicalURL: "bushuyeu.com/projects/tomo"
+description: "Often, most knowledgeable people in the organization repeat the same information to others multiple times in Slack, Jira tickets, 1-1 calls or group calls. 
+
+Tomo is designed to help them. It collects basic info and, when a question is asked, provides a suggested answer that it believes is the most relevant to the context."
+canonicalURL: "https://bushuyeu.com/projects/tomo"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

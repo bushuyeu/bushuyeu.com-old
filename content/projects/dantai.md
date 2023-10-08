@@ -1,12 +1,14 @@
 ---
 title: "Dentai - AI-powered Speech And Accent Coach"
 #date: 2023-09-15T11:30:03+00:00
-# weight: 1
+weight: 2
 aliases: ["/dentai"]
+author: ""
+# author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false
-draft: true
-hidemeta: false
+draft: false
+hidemeta: true
 comments: false
 description: "Your AI feedback partner in presentations, customer calls, interviews"
 canonicalURL: "https://bushuyeu.com/projects/dentai"
@@ -18,9 +20,9 @@ hideFooter: true
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
-ShowRssButtonInSectionTermList: true
+ShowRssButtonInSectionTermList: false
 UseHugoToc: true
 cover:
     image: "<images/dentai.jpg>" # image path/url
