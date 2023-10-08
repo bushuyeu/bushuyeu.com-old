@@ -1,5 +1,5 @@
 ---
-title: "Tomo - knowledge base within Slack"
+title: "Tomo - Knowledge Base Within Slack"
 #date: 2023-09-15T11:30:03+00:00
 weight: 1
 aliases: ["/tomo"]
