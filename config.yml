@@ -67,11 +67,11 @@ params:
     imageWidth: 240
     imageHeight: 240
     imageTitle: "Pavel Bushuyeu"
-    buttons:
-      # - name: Blog
-      #   url: blog
-      - name: Projects
-        url: projects
+    # buttons:
+    #   # - name: Blog
+    #   #   url: blog
+    #   - name: Projects
+    #     url: projects
 
   # home-info mode
   homeInfoParams:
